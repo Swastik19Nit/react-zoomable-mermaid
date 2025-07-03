@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1a1a1a;
+    --foreground: #ffffff;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Custom styles for diagram container */
+.zoomable-mermaid-container {
+  transition: all 0.2s ease-in-out;
+}
+
+.zoomable-mermaid-container:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode specific styles */
+@media (prefers-color-scheme: dark) {
+  .zoomable-mermaid-container:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  select, button {
+    background-color: #2d2d2d;
+    border-color: #404040;
+    color: #ffffff;
+  }
+  
+  select:hover, button:hover {
+    background-color: #404040;
+  }
+}
