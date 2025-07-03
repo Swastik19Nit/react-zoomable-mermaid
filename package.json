@@ -52,7 +52,7 @@
     "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.5.0",
     "@types/react": "^18.0.0",
-    "@types/svg-pan-zoom": "^3.6.1",
+    "@types/svg-pan-zoom": "^3.6.0",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
     "@typescript-eslint/parser": "^5.59.0",
     "eslint": "^8.38.0",
