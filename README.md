@@ -4,12 +4,11 @@ A React component that renders Mermaid diagrams with pan and zoom capabilities. 
 
 ## Features
 
-- 🎯 Interactive pan and zoom controls
-- 🔄 Dynamic diagram updates
-- ⚡ Easy integration with React applications
-- 🎨 Customizable appearance and behavior
-- 🛠️ Exposed methods for programmatic control
-- 📱 Responsive design
+- Interactive pan and zoom controls
+- Dynamic diagram updates
+- Easy integration with React applications
+- Customizable appearance and behavior
+- Exposed methods for programmatic control
 
 ## Installation
 
@@ -207,9 +206,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
